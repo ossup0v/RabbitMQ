@@ -17,21 +17,8 @@ namespace RabbitMQ.Producer
       using (var conn = factory.CreateConnection())
       using (var channel = conn.CreateModel())
       {
-        channel.QueueDeclare(
-            queue: "demo-queue"
-          , durable: false
-          , exclusive: false
-          , autoDelete: false
-          , arguments: null);
-        var message = new { Name = "Producer", Message = "Hello!!" };
-
-        var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
-
-        channel.BasicPublish("", "demo-queue", null, body);
-        Console.WriteLine($"Message {message.ToString()} was seneded");
-        Console.ReadLine();
+        QueueProducer.Publish(channel);
       }
-
     }
   }
 }
