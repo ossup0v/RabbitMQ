@@ -1,6 +1,14 @@
 RabbitMQ.Producer/RabbitMQ.Producer/obj/
 RabbitMQ.Producer/RabbitMQ.Producer/bin/
 RabbitMQ.Producer/.vs/
+RabbitMQ.Consumer/RabbitMQ.Connections/obj/
+RabbitMQ.Consumer/RabbitMQ.Connections/bin/
+RabbitMQ.Consumer/RabbitMQ.Messages/obj/
+RabbitMQ.Consumer/RabbitMQ.Messages/bin/
 RabbitMQ.Consumer/RabbitMQ.Consumer/obj/
 RabbitMQ.Consumer/RabbitMQ.Consumer/bin/
+RabbitMQ.Consumer/Common/obj/
+RabbitMQ.Consumer/Common/bin/
+RabbitMQ.Consumer/RabbitMQ.Logger/obj/
+RabbitMQ.Consumer/RabbitMQ.Logger/bin/
 RabbitMQ.Consumer/.vs/
